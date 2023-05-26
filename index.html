@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/favi.png" type="image/x-icon">
+    <title>Tia De Restaurante  </title>
+
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/mobile.css">
+</head>
+<body>
+    <div class="container">
+       
+    <header class="header">
+        
+        <div class="menu-section">
+            <div class="menu-toggle" onclick="openMenu()">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+                <div class="four"></div>
+            </div>
+
+            <ul class="header-nav">
+                <li class="nav-item fixo"><a href="#" onclick="linkClick()">Home</a></li>
+                <li class="nav-item"><a href="#cardapio" onclick="linkClick()">Cardápio</a></li>
+                <li class="nav-item"><a href="#historia" onclick="linkClick()">Sobre</a></li>
+                
+            </ul>
+        </div>
+        
+    </header>
+
+    <section class="section-menu fundo" id="menu">
+        <div class="menu-text">
+            <h1 class="menu-title">Tia De Restaurante | delivery </h1>
+            <h2 class="menu-desc"> comida mineira </h2>
+            <button class="menu-button"> <a href="#cardapio">Cardápio </a></button>
+        </div>
+
+        
+    </section>
+</div>
+    <section class="section-readmore">
+        <img src="./src/img/feijoada-completa.jpg" alt="" class="readmore-img">
+
+        <div class="readmore-text" id="historia">
+            <h1 class="readmore-title">Tia De Restaurante </h1>
+            <p class="readmore-desc">Se você realmente gosta de comida mineira, o Restaurante da Tia De é o lugar certo.
+                Venha experimentar e se surpreender com sabores de nossos pratos. Temos Feijoada, Angu, Tutu de Feijão, Feijão Tropeiro, Baião de Dois, Macarronada, Legumes, Porções. Aproveite para pedir sua bebida preferida.
+                Tudo Isso no conforto de sua casa e com uma entrega bem rápida e DIVERSAS OPÇÕES DE PAGAMENTOS.
+                Bom apetite! </p>
+            
+        </div>
+    </section>
+
+    <section class="section-popular">
+        <h1 class="popular-title" id="cardapio"> Mais populares</h1>
+
+        <div class="popular-cards">
+            <div class="popular-card">
+                <img src="src/img/feijoada-saborosa.png" alt="" class="popular-card-img">
+                <h3 class="popular-card-title">Feijoada Completa</h3>
+                <p class="popular-card-desc">(arroz, couve, Iinguiça, bisteca, torresmo, farofa e banana).</p>
+                <span class="popular-card-price">R$ 40</span>
+            </div>
+
+            <div class="popular-card">
+                <img src="src/img/macarrao-na-chapa.png" alt="" class="popular-card-img">
+                <h3 class="popular-card-title macarrao-chapa">Macarrão na Chapa</h3>
+                <p class="popular-card-desc espaco">(Acompanha bacon, frango desfiado e milho).</p>
+                <span class="popular-card-price">R$ 19</span>
+            </div>
+
+            <div class="popular-card">
+                <img src="src/img/parmegiana.png" alt="" class="popular-card-img">
+                <h3 class="popular-card-title frango">Frango a Parmegiana</h3>
+                <p class="popular-card-desc">(Arroz, feijão, batata frita e <br> salada).</p>
+                <span class="popular-card-price">R$ 25</span>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section class="section-feedback">
+        <h1 class="feedback-title">Cardápio </h1>
+
+        <div class="feedback-cards">
+            <div class="feedback-card">
+                <img src="src/img/Bisteca-de-Porco.png" alt="" class="feedback-card-profile">
+                <h4 class="feedback-card-author">Bisteca de Porco</h4>
+                <p class="feedback-card-desc">(Arroz, feijão, salada e farofa).</p>
+                
+                <p class="menu-price valor-bisteca"> R$ 19</p>
+                
+            </div>
+
+            <div class="feedback-card">
+                <img src="src/img/frango.png" alt="" class="feedback-card-profile">
+                <h4 class="feedback-card-author frango-molho">Frango ao Molho</h4>
+                <p class="feedback-card-desc">(Arroz, feijão, salada e farofa).</p>
+                
+                <p class="menu-price valor-frango"> R$ 19</p>
+                
+            </div>
+
+            <div class="feedback-card">
+                <img src="src/img/espaguete-alho-e -oleo.png" alt="" class="feedback-card-profile">
+                <h4 class="feedback-card-author espaguete-alho-oleo">Espaguete Alho e Oleo</h4>
+                <p class="feedback-card-desc">(Frango e salada).</p>
+                
+                <p class="menu-price  valor-espaguete"> R$ 19</p>
+                
+            </div>
+
+            <div class="feedback-card">
+                <img src="src/img/Bife-a-Parmegiana.png" alt="" class="feedback-card-profile">
+                <h4 class="feedback-card-author ">Contra filé a parmegiana</h4>
+                <p class="feedback-card-desc">(Arroz, feijão e batata frita).</p>
+                
+                <p class="menu-price"> R$ 35</p>
+                
+            </div>
+
+            <div class="feedback-card">
+                <img src="src/img/bife-fritas2.png" alt="" class="feedback-card-profile">
+                <h4 class="feedback-card-author">Contra Filé com fritas</h4>
+                <p class="feedback-card-desc">(Arroz, feijão, batata frita e salada).</p>
+                
+                <p class="menu-price"> R$ 32</p>
+                
+            </div>
+
+            <div class="feedback-card">
+                <img src="src/img/virada-paulista.png" alt="" class="feedback-card-profile">
+                <h4 class="feedback-card-author frango-molho">Virada a Paulista </h4>
+                <p class="feedback-card-desc">(Arroz, tutu de feijão, ovo frito, bisteca, torresmo e couve).</p>
+                
+                <p class="menu-price "> R$ 25</p>
+                
+            </div>
+
+            <div class="feedback-card">
+                <img src="src/img/feijao-tropeiro2.png" alt="" class="feedback-card-profile">
+                <h4 class="feedback-card-author">Feijão tropeiro completo</h4>
+                <p class="feedback-card-desc">(Arroz, bisteca e salada).</p>
+                
+                <p class="menu-price  valor-espaguete"> R$ 25</p>
+                
+            </div>
+
+            <div class="feedback-card">
+                <img src="src/img/omelete.png" alt="" class="feedback-card-profile">
+                <h4 class="feedback-card-author ">Omelete</h4>
+                <p class="feedback-card-desc">(Arroz, feijão, salada e farofa).</p>
+                
+                <p class="menu-price"> R$ 19</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="section-feedback">
+        <h1 class="feedback-title">Bebidas  </h1>
+
+        <div class="feedback-cards">
+            <div class="feedback-card-bebidas">
+                <img src="src/img/Suco-de-laranja.png" alt="" class="feedback-card-profile laranja">
+                <h4 class="feedback-card-author title-laranja">Suco de Laranja</h4>
+                <p class="feedback-card-desc">(Suco de Laranja natural).</p>
+                
+                <p class="menu-price "> R$ 7</p>
+                
+            </div>
+
+            <div class="feedback-card-bebidas">
+                <img src="src/img/suco-de-abacaxi.png" alt="" class="feedback-card-profile ">
+                <h4 class="feedback-card-author title-laranja">Suco de Abacaxi</h4>
+                <p class="feedback-card-desc ">(Suco de abacaxi natural).</p>
+                
+                <p class="menu-price "> R$ 7</p>
+                
+            </div>
+
+            <div class="feedback-card-bebidas">
+                <img src="src/img/coca-cola.png" alt="" class="feedback-card-profile cola">
+                <h4 class="feedback-card-author title-coca">Coca Cola </h4>
+                <p class="feedback-card-desc ">(Refrigerante 1 litro).</p>
+                
+                <p class="menu-price preco-coca"> R$ 10</p>
+                
+            </div>
+      
+        </div>
+        
+        <br> <br>
+        <button class="menu-button ifood"> <a href="https://www.ifood.com.br/delivery/mongagua-sp/tia-de-restaurante-comida-mineira-balneario-de-birigui/1cb6e69c-8d3f-48f0-88d3-e2a109825351?fbclid=IwAR23RxDBP4L8zElIPAKRJpk5JZXmmwBPuESvVc35e6NgVeZyVqmJu7Naj1E"> IFOOD </a></button>
+    </section>
+
+    <section class="section-location">
+        <h1 class="location-title">Localização</h1>
+        
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6123.710526571297!2d-46.68887016986935!3d-24.130313754777944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce281816454a93%3A0x429b8fc46a679451!2sAv.%20S%C3%A3o%20Paulo%2C%209641%20-%20Balneario%20de%20Birigui%2C%20Mongagu%C3%A1%20-%20SP%2C%2011730-000!5e0!3m2!1spt-BR!2sbr!4v1684889502071!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        
+    </section>
+
+    <footer class="footer">
+        <h1 class="footer-title">TiaDE
+            <br>
+            <span style="color: #DA2535;">Restaurante</span></h1>
+
+        <nav class="nav-cards">
+            <ul class="nav-card">
+                <h2 class="nav-title" id="about">
+                    Contato
+                </h2>
+                <li class="nav-item-contato">+55 13 98202-2436</li>
+                <li class="nav-item-contato">tiaderestaurante@gmail.com</li>
+            </ul>
+
+            <ul class="nav-card">
+                <h2 class="nav-title">
+                    Sobre nós
+                </h2>
+                <li class="nav-item-contato"><a href="#cardapio"> Menu</a></li>
+                <li class="nav-item-contato"><a href="#cardapio"> Valores</a></li>
+                
+            </ul>           
+
+            <ul class="nav-card">
+                <h2 class="nav-title">
+                    Serviços
+                </h2>
+                <li class="nav-item-contato"><a href="https://www.ifood.com.br/delivery/mongagua-sp/tia-de-restaurante-comida-mineira-balneario-de-birigui/1cb6e69c-8d3f-48f0-88d3-e2a109825351?fbclid=IwAR23RxDBP4L8zElIPAKRJpk5JZXmmwBPuESvVc35e6NgVeZyVqmJu7Naj1E" target="_blank"> Entrega </a></li>
+                <li class="nav-item-contato"><a href="https://goo.gl/maps/awNqLCZsnxgLbHNs8" target="_blank"> Retirada </a></li>
+            </ul>    
+        </nav>
+    </footer>
+
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script type="text/javascript" src="./src/js/script.js"></script>
+</body>
+</html>                                                                                                                                                                 
